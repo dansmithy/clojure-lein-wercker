@@ -18,4 +18,4 @@ build:
     - script:
         name: lein uberjar
         code: |
-          echo "to do"
+          lein ring uberjar
